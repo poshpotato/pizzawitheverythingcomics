@@ -1,0 +1,6 @@
+<ul id="navbar-list">
+  <li class="navbar-element"><a href="index.html">Home</a></li>
+  <li class="navbar-element"><a href="comic.html">Latest Comic</a></li>
+  <li class="navbar-element"><a href="comic.html?page=1">From The Top</a></li>
+  <li class="navbar-element"><a href="about.html">About</a></li>
+</ul>
