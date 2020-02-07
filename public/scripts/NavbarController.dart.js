@@ -1287,7 +1287,7 @@ aT:function aT(){},
 aX:function aX(){},
 aY:function aY(){}},M={
 dI:function(){P.d6("Acessing navbar...")
-W.eb("../navbar.txt").W(M.ei(),null)},
+W.eb("navbar.txt").W(M.ei(),null)},
 ej:function(a){H.n(a)
 P.d6("Loading navbar...")
 J.e2(document.querySelector("#navbar"),"beforeend",a,null,null)

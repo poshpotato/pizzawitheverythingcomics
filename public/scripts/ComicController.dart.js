@@ -2020,7 +2020,7 @@ P.by("Page number is: "+H.h(u))
 u=document
 t=H.e(u.querySelector("#content"),"$iaf")
 s=u.createElement("img")
-s.src="../images/hope_"+H.h($.ei)+".png"
+s.src="images/hope_"+H.h($.ei)+".png"
 s.className="comicPage"
 t.appendChild(s)}else{P.by("no page number.")
 u=document
@@ -2029,7 +2029,7 @@ u=u.createElement("p")
 u.textContent="Sorry! We couldn't find that page. :("
 u.className="error"
 t.appendChild(u)}P.by("Acessing navbar...")
-W.fv("../navbar.txt").ac(M.fC(),null)}},M={
+W.fv("navbar.txt").ac(M.fC(),null)}},M={
 fD:function(a){H.t(a)
 P.by("Loading navbar...")
 J.fm(document.querySelector("#navbar"),"beforeend",a,null,null)
