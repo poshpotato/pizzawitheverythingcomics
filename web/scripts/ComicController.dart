@@ -14,7 +14,7 @@ class ComicController{
       print("Page number is: $pageNumber");
       DivElement content = querySelector("#content");
       content.append(new ImageElement()
-        ..src = "../images/hope_$pageNumber.png"
+        ..src = "images/hope_$pageNumber.png"
         ..className = "comicPage");
     } else {
       print("no page number.");
