@@ -14,6 +14,7 @@ class ComicController{
       print("Page number is: $pageNumber");
       DivElement content = querySelector("#content");
       content.append(new ImageElement()
+        ..onError.listen((_) => onError())
         ..src = "images/hope_$pageNumber.png"
         ..className = "comicPage");
     } else {
@@ -21,5 +22,9 @@ class ComicController{
       DivElement content = querySelector("#content");
       content.append(new ParagraphElement()..text="Sorry! We couldn't find that page. :("..className="error");
     }
+  }
+  static void onError(){
+    querySelector("#content").append(new ParagraphElement()..text="Sorry! We couldn't find that page. :("..className="error");
+    querySelector(".comicPage").remove();
   }
 }
