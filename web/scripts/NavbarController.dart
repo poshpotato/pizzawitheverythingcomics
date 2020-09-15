@@ -7,7 +7,7 @@ main(){
 class NavbarController {
   static loadNavbar(){
     print("Acessing navbar...");
-    HttpRequest.getString("navbar.txt").then(onNavbarLoaded);
+    HttpRequest.getString("../navbar.txt").then(onNavbarLoaded);
   }
 
   static onNavbarLoaded(String navbarHTML){
