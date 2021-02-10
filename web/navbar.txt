@@ -1,7 +1,4 @@
-<div id="banner">
-        <!-- put banner here when possible. -->
-</div>
-
+<a href="index.html" class="logo-element"><img src="images/pwe_logo.png" class="logo"></a>
 <ul id="navbar-list">
   <li class="navbar-element"><a href="index.html">Home</a></li>
   <li class="navbar-element"><a href="comic.html?series=hope&page=1">Hope</a></li>

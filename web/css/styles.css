@@ -32,24 +32,33 @@ html, body {
 }
 
 #navbar {
-        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        background-color: #87ceeb;
+        position: static;
         z-index: 5;
-        text-align: center;
 }
 
 #navbar-list {
   background-color: #87ceeb;
+  margin: 0;
   list-style-type: none;
-  margin-left: 20%;
-  margin-right: 20%;
+  display: inline-block;
 }
 
 .navbar-element{
     display: inline-block;
-    margin: 0;
     padding-left: 10px;
     padding-right: 10px;
-    vertical-align: middle;
+    vertical-align: left;
+}
+
+.logo{
+    width:10%;
+    height:auto;
+    display: inline-block;
+    vertical-align: left;
 }
 
 #content {
